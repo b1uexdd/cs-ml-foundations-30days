@@ -35,7 +35,7 @@ def mse_loss(y_pred, y_target, reduction="mean"):
     
 #rmse
 def rmse_loss(y_pred, y_target, reduction="mean"):
-    loss = mae_loss(y_pred, y_target, reduction=reduction)
+    loss = mse_loss(y_pred, y_target, reduction=reduction)
     return torch.sqrt(loss)
 
 #huber_loss
