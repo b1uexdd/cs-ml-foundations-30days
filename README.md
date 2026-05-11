@@ -1,1 +1,1 @@
-# practice
+30-day PyTorch and deep learning plan: implement core modules such as losses, metrics, training loops, ResNet, Attention, and Transformer blocks to improve deep learning source-code reading ability.
