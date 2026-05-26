@@ -8,6 +8,8 @@ logits = torch.tensor([
 
 targets = torch.tensor([0, 1])
 
+#loss = - correct_class_logit + log(sum(exp(all_logits)))
+
 batch_indices = torch.arange(logits.shape[0]) #【0，1】
 target_logits = logits[batch_indices, targets] #【2，2.5】
 
